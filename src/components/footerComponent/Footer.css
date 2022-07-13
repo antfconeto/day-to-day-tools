@@ -1,0 +1,70 @@
+
+footer {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--black1);
+    padding: 20px 20px;
+    align-items: center;
+    border-top: 1px solid;
+}
+
+footer ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li {
+    padding: 0 10px;
+}
+
+footer ul li a {
+    color: var(--white);
+    font-size: 24px;
+    transition: ease 0.5s;
+}
+
+footer ul li a:hover{
+    color: #f2ff00
+}
+
+footer p {
+    color: var(--white);
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}
+
+footer .sobre {
+    width: 100%;
+    text-align: center;
+    align-items: center;
+}
+
+footer .redesSociais {
+    margin-top: 10px;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+@media (min-width: 900px) {
+    footer {
+        flex-direction: row;
+    }
+
+    footer .left {
+        text-align: left;
+        width: 50%;
+    }
+
+    footer .right {
+        margin-top: 0;
+        width: 50%;
+        justify-content: flex-end;
+        flex-direction: row;
+    }
+}
