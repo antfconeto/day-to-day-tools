@@ -1,0 +1,11 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --white: #fff;
+    --black1: #000;
+    --black2: #ccc;
+     
+}
